@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
 }
@@ -6,7 +7,10 @@ html {
 }
 
 body {
-  background: #121212;;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-size: cover;
   font-family: "Comic Sans MS", cursive, sans-serif;
   min-height: 100vh;
 }
@@ -30,6 +34,7 @@ a {
 
 .container {
   background: #272727;
+  border-radius: 5px;
 }
 
 .container__footer {
@@ -104,4 +109,8 @@ a {
 
 .page-footer a {
   color: rgb(245, 90, 43);
+}
+
+#error {
+  color: #fff;
 }

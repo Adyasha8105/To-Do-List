@@ -12,4 +12,3 @@ It has three steps :-
 
 3. Completed checkbox :  Lists the completed tasks of the user and an option to delete it from the list.
 
-
